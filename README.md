@@ -7,10 +7,10 @@ AuraClock is a PyQt5-powered desktop application that brings together:
 ## 📷 Screenshots
 
 ### Digital Clock
-![Digital Clock](assets/screenshots/digital_clock.png)
+<img src="assets/screenshots/digital_clock.png" alt="Digital Clock" width="400" height="400"/>
 
 ### Stopwatch
-![Stopwatch](assets/screenshots/stopwatch.png)
+<img src="assets/screenshots/stopwatch.png" alt="Stopwatch" width="400" height="400"/>
 
 ### Weather App
 ![Weather App](assets/screenshots/weather_app.png)
@@ -40,15 +40,16 @@ python main.py
 
 ## 🔑 OpenWeather API Key
 The weather module requires an OpenWeather API key.
+
 Replace your API key directly in `weather_app.py`:
-```py
+```python
 api_key = "YOUR_API_KEY"
 ```
 
 ## 🖌️ UI Design Highlights
 - Dark theme
 - Neon colors
-- Smooth responsive layouts
+- Smooth, responsive layouts
 - Weather emojis 🌦️
 
 ## 📄 License
