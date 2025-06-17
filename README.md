@@ -7,10 +7,10 @@ AuraClock is a PyQt5-powered desktop application that brings together:
 ## 📷 Screenshots
 
 ### Digital Clock
-<img src="assets/screenshots/digital_clock.png" alt="Digital Clock" width="400" height="400"/>
+<img src="assets/screenshots/digital_clock.png" alt="Digital Clock" width="450" height="400"/>
 
 ### Stopwatch
-<img src="assets/screenshots/stopwatch.png" alt="Stopwatch" width="400" height="400"/>
+<img src="assets/screenshots/stopwatch.png" alt="Stopwatch" width="450" height="400"/>
 
 ### Weather App
 ![Weather App](assets/screenshots/weather_app.png)
