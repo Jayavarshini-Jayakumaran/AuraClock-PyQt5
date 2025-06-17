@@ -54,3 +54,5 @@ api_key = "YOUR_API_KEY"
 
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
+
+<p align="center"><b>Finish what you started 💻 </b></p>
