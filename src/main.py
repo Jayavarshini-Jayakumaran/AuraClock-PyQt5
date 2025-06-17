@@ -1,4 +1,5 @@
 import sys
+import os
 from PyQt5.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QPushButton, QVBoxLayout,
     QWidget, QHBoxLayout, QStackedLayout
@@ -9,12 +10,16 @@ from digital_clock import DigitalClock
 from stopwatch import Stopwatch
 from weather_app import WeatherApp
 
+# Get project root directory (one level above src/)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ICON_DIR = os.path.join(BASE_DIR, "assets", "icons")
+
 class MainApp(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("AuraClock")
         self.setGeometry(600, 300, 500, 500)
-        self.setWindowIcon(QIcon("assets/icons/AuraClock-Logo"))
+        self.setWindowIcon(QIcon(os.path.join(ICON_DIR, "AuraClock-Logo.png")))
 
         # Central container
         central_widget = QWidget()
@@ -27,8 +32,8 @@ class MainApp(QMainWindow):
 
         # Tabs for clock and stopwatch
         self.tabs = QTabWidget()
-        self.tabs.addTab(DigitalClock(), QIcon("assets/icons/Clock-Icon.jpg"), "Digital Clock")
-        self.tabs.addTab(Stopwatch(), QIcon("assets/icons/Stopwatch-Icon.png"), "Stopwatch")
+        self.tabs.addTab(DigitalClock(), QIcon(os.path.join(ICON_DIR, "Clock-Icon.jpg")), "Digital Clock")
+        self.tabs.addTab(Stopwatch(), QIcon(os.path.join(ICON_DIR, "Stopwatch-Icon.png")), "Stopwatch")
 
         self.tabs.setIconSize(QSize(18, 18))
 

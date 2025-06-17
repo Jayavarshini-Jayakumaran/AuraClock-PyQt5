@@ -30,7 +30,8 @@ class DigitalClock(QWidget):
 
         # loading the custom font
         # Construct the absolute path to the DS-DIGIT.TTF font file, relative to this script
-        font_path = os.path.join(os.path.dirname(__file__), "assets/fonts/DS-DIGIT.TTF")
+        # font_path = os.path.join(os.path.dirname(__file__), "AuraClock/assets/fonts/DS-DIGIT.TTF")
+        font_path = os.path.join(os.path.dirname(__file__), '..', 'assets', 'fonts', 'DS-DIGIT.TTF')
         # Try to load the custom font from the given path
         font_id = QFontDatabase.addApplicationFont(font_path)
         # Retrieve the font family names associated with the loaded font
