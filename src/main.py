@@ -40,7 +40,7 @@ class MainApp(QMainWindow):
         # Add tabs to content area
         content_layout.addWidget(self.tabs)
 
-        # Fun Weather button
+        # Weather button
         weather_button = QPushButton("☁️ Wanna Check the Weather?")
         weather_button.setStyleSheet("""
             QPushButton {
