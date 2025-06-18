@@ -19,7 +19,7 @@ AuraClock is a PyQt5-powered desktop application that brings together:
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/your-username/AuraClock.git
+git clone https://github.com/Jayavarshini-Jayakumaran/AuraClock-PyQt5.git
 cd AuraClock
 ```
 
